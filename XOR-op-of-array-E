@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int xorOperation(int n, int start) {
+        vector<int>g;
+       int  p=start;
+        for(int i=1;i<n;i++)
+        {
+int l= start+2*i;
+            p=p^l;
+          
+        }
+        
+        
+        return p;
+    }
+};
